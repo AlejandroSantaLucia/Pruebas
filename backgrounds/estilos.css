@@ -1,0 +1,213 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.div1 {
+    /* color de fondo 1AD0AF*/
+    margin-bottom: 10px;
+    background-image: url("img/backgrounPrueba.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-color: #1AD0AF;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+
+.div1 .textos {
+    color: lightgoldenrodyellow;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    justify-self: flex-end;
+    margin-right: 20px;
+    
+}
+
+
+
+
+
+.div2 {
+    margin-bottom: 10px;
+    background-image: url("img/background\ 8.png");
+    background-size: contain;
+    background-position: right ;
+    background-repeat: no-repeat;
+  
+}
+.div2 .textos {
+    color: #1b1919   ;
+    /* text-align: right; */
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    /* justify-self: flex-end; */
+    margin-left: 20px;
+    
+}
+
+.div2 .logoContainer {  display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    height: 90vh;
+
+}
+
+.div2 figure {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+.div3 {
+    margin-bottom: 10px;
+    background-image: url("img/background\ 9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #22C546;
+    width: 100%;
+    height: 90vh;
+}
+
+.div3 .textos {
+    padding-top: 50px;
+    color: #ecf3ee   ;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin-left: 20px;
+    
+}
+
+
+
+
+
+
+
+
+.div4 {
+    margin-bottom: 10px;
+    background-color: lightblue;
+    background-image: url("img/background\ 6.png");
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.div4 .textos {
+    padding-top: 50px;
+    color: #4375BF   ;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin-left: 20px;
+    
+}
+
+
+
+.div5 {
+    margin-bottom: 10px;
+    background-image: url("img/background\ 10.png");
+
+    width: 100%;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-areas: ". info .";
+}
+
+.div5 .infocontainer{
+    grid-area: info;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.div5 .textos {
+    
+    text-align: center;
+    color: #e2e6eb   ;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin-left: 20px;
+    /* margin: 0 auto; */
+    
+}
+
+.div5 .logo {
+    /* margin: 0 auto */
+}
+
+
+
+
+
+
+.div6 {
+    margin-bottom: 10px;
+    background-image: url("img/background\ 11.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.div6 .textos {
+    
+    text-align: center;
+    color: #008037   ;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin-left: 20px;
+    text-align: right;
+    padding-right: 20px;
+    
+}
+
+
+
+.div7 {
+    margin-bottom: 10px;
+    background-image: url("img/ManchasVerdes.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: lightcyan;
+
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div7 .textos {
+    
+    /* text-align: center; */
+    color: #008037   ;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 50%;
+    margin-left: 20px;
+    /* text-align: right; */
+    /* padding-right: 20px;
+     */
+}
