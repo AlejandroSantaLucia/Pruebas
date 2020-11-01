@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    background-color: lightcyan;
+    padding:10px;
+}
+
+.tituloContainer {
+    background-color: lightgrey;
+    margin-top: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.detalle{
+    background-color: rgb(233, 215, 215);
+    padding: 10px;
+}
+
+.logoContainer {
+    margin: 10px ;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.tituloContainer:hover {
+    background-color: rgb(236, 235, 235);
+}
+
+
+/* #detalle{
+    display: none
+} */
+
+
